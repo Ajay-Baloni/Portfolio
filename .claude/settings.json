@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm --yes)",
+      "Bash(npx --yes create-next-app@latest portfolio-tmp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm --yes)",
+      "Bash(npm install *)",
+      "Bash(node -p \"require\\('./node_modules/motion/package.json'\\).version\")",
+      "Bash(node -p \"Object.keys\\(require\\('./node_modules/motion/package.json'\\).exports\\).join\\('\\\\n'\\)\")",
+      "Bash(node -p \"require\\('./node_modules/tailwindcss/package.json'\\).version\")",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm pkg *)",
+      "Bash(npx eslint *)",
+      "Bash(tee /tmp/claude-1000/-home-ajay-Documents-Projects-Portfolio/7fa7d301-3fdc-42a9-b9dc-c7d35f52039c/scratchpad/dev.log)",
+      "Read(//home/ajay/.cache/**)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx --yes playwright install chromium)",
+      "Bash(npm root *)",
+      "Bash(NODE_PATH=$\\(npm root -g\\) node shot.mjs)",
+      "Bash(npm init *)",
+      "Bash(node shot.mjs)",
+      "Bash(node debug.mjs)",
+      "Bash(sed -i 's/  deviceScaleFactor: 2,/  deviceScaleFactor: 2,\\\\n  isMobile: true,\\\\n  hasTouch: true,/' debug.mjs)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(node overflow.mjs)",
+      "Bash(node anchors.mjs)",
+      "Bash(echo \"=== LINT EXIT: $? ===\")",
+      "Bash(curl -s http://localhost:3000/opengraph-image -o /tmp/claude-1000/-home-ajay-Documents-Projects-Portfolio/7fa7d301-3fdc-42a9-b9dc-c7d35f52039c/scratchpad/og.png)"
+    ]
+  }
+}
