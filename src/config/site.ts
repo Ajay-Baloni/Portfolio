@@ -21,24 +21,17 @@ export const site = {
     accentWord: "production",
     headline: "I build production web apps, end to end.",
     subline:
-      "Full-stack developer working in React, TypeScript, Node and PostgreSQL. I've spent the last two and a half years on a multi-tenant B2B SaaS HRMS — and built the AI pieces on top of it, from RAG pipelines to autonomous agents.",
+      "Full-stack developer working in React, TypeScript, Node and PostgreSQL. I've spent the last two and a half years on a multi-tenant B2B SaaS HRMS — and built the AI pieces on top of it.",
   },
 
   about: {
     heading: "A full-stack developer who ships the whole feature.",
     paragraphs: [
-      "I'm a full-stack developer based in Mohali. Most of my work has been on a production B2B SaaS HRMS serving 30+ enterprise clients — tenant-aware React frontends, Node and Express APIs, and the PostgreSQL schema underneath them, delivered end to end rather than handed off halfway.",
+      "I'm a full-stack developer. Most of my work has been on a production B2B SaaS HRMS — tenant-aware React frontends, Node and Express APIs, and the PostgreSQL schema underneath them, delivered end to end rather than handed off halfway.",
       "The parts I enjoy most are the ones that decide whether a product holds up: RESTful API design, SSO and JWT authentication, client-side encryption for sensitive fields, and performance work like code splitting, lazy loading and memoisation that users feel without ever naming.",
-      "Lately I've been building with AI as infrastructure rather than a demo — an end-to-end document assistant with a Gemini-backed RAG pipeline and pgvector semantic search, and an autonomous LangGraph agent that answers analytics questions from real database aggregates instead of guesses.",
+      "Lately I've been working with AI — building things with it and honing my skills as I go.",
     ],
   },
-
-  stats: [
-    { value: 2, suffix: "+", label: "Years shipping production software" },
-    { value: 30, suffix: "+", label: "Enterprise clients on the HRMS I build for" },
-    { value: 3, suffix: "", label: "Products taken from schema to UI" },
-    { value: 2, suffix: "", label: "AI systems shipped — RAG + agentic" },
-  ],
 
   /** Rendered as two scrolling marquee rows. Split roughly in half. */
   stack: [
@@ -155,7 +148,7 @@ export const site = {
     {
       title: "Multi-Tenant HRMS Platform",
       blurb:
-        "A production B2B SaaS HRMS serving 30+ enterprise clients. Tenant-aware architecture lets features be configured per client across modules, with SSO, client-side encryption for sensitive fields, and document generation for payslips and reports.",
+        "A production B2B SaaS HRMS. Tenant-aware architecture lets features be configured per client across modules, with SSO, client-side encryption for sensitive fields, and document generation for payslips and reports.",
       role: "Full-stack engineer",
       year: "2024 — 2026",
       tags: ["React.js", "Node.js", "PostgreSQL", "Prisma", "JWT"],
@@ -174,7 +167,7 @@ export const site = {
       period: "Jan 2024 — Jun 2026",
       location: "Mohali, Punjab",
       summary:
-        "Full-stack engineer on a production B2B SaaS HRMS serving 30+ enterprise clients, delivering features end to end across Node.js, PostgreSQL and a React frontend. Built tenant-aware modules configurable per client, designed and consumed REST APIs, integrated SSO and client-side encryption for sensitive fields, and shipped an AI document assistant (RAG over pgvector with Gemini) on my own. Also built Recharts dashboards and client-side PDF/Excel/Word generation, and improved performance with code splitting, lazy loading and React.memo/useMemo/useCallback.",
+        "Full-stack engineer on a production B2B SaaS HRMS, delivering features end to end across Node.js, PostgreSQL and a React frontend. Built tenant-aware modules configurable per client, designed and consumed REST APIs, integrated SSO and client-side encryption for sensitive fields, and shipped an AI document assistant (RAG over pgvector with Gemini) on my own. Also built Recharts dashboards and client-side PDF/Excel/Word generation, and improved performance with code splitting, lazy loading and React.memo/useMemo/useCallback.",
       tags: [
         "React.js",
         "Node.js",
@@ -192,8 +185,8 @@ export const site = {
       period: "2019 — 2023",
       location: "Tehri Garhwal, Uttarakhand",
       summary:
-        "Bachelor of Technology in Computer Science, graduated 2023 with 73%.",
-      tags: ["Computer Science", "73%"],
+        "Bachelor of Technology in Computer Science, graduated 2023.",
+      tags: ["Computer Science"],
     },
   ],
 

@@ -1,6 +1,5 @@
 import { site } from "@/config/site";
 import { AuroraSpot } from "@/components/ui/aurora";
-import { Counter } from "@/components/ui/counter";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
@@ -29,10 +28,6 @@ export function About() {
             <Reveal delay={0.25}>
               <dl className="flex flex-wrap gap-x-10 gap-y-4 pt-4 font-mono text-sm">
                 <div>
-                  <dt className="text-dim">Based in</dt>
-                  <dd className="mt-1 text-chalk">{site.location}</dd>
-                </div>
-                <div>
                   <dt className="text-dim">Currently</dt>
                   <dd className="mt-1 text-chalk">{site.role}</dd>
                 </div>
@@ -41,21 +36,6 @@ export function About() {
           </div>
 
           <div className="space-y-10">
-            <RevealGroup className="grid grid-cols-2 gap-4">
-              {site.stats.map((stat) => (
-                <RevealItem key={stat.label}>
-                  <SpotlightCard className="h-full p-5" radius={220}>
-                    <div className="text-3xl font-semibold tracking-tight text-chalk sm:text-4xl">
-                      <Counter value={stat.value} suffix={stat.suffix} />
-                    </div>
-                    <div className="mt-2 text-sm leading-snug text-dim text-pretty">
-                      {stat.label}
-                    </div>
-                  </SpotlightCard>
-                </RevealItem>
-              ))}
-            </RevealGroup>
-
             <RevealGroup className="space-y-3" stagger={0.1}>
               {site.expertise.map((group) => (
                 <RevealItem key={group.title}>

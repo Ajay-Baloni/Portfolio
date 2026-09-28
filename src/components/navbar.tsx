@@ -194,7 +194,7 @@ export function Navbar() {
                   onClick={() => setMenuOpen(false)}
                   className="flex items-center gap-2 rounded-full border border-white/12 px-6 py-3 text-base text-chalk"
                 >
-                  Résumé
+                  Resume
                   <ArrowUpRight className="size-4" />
                 </a>
               </motion.li>

@@ -18,7 +18,7 @@ export function Projects() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="02 — Selected work"
-          title="Things I've built and shipped."
+          title="Things I've built."
           description="A few projects that show how I think about product, performance and the details in between."
         />
 
