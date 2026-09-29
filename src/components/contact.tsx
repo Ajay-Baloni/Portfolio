@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowUpRight, Check, Copy } from "lucide-react";
+import { ArrowUpRight, Check, Copy, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { site } from "@/config/site";
@@ -105,6 +105,16 @@ export function Contact() {
               </AnimatePresence>
             </button>
           </div>
+        </Reveal>
+
+        <Reveal delay={0.23}>
+          <a
+            href={`tel:${site.phone.replace(/\s/g, "")}`}
+            className="mt-6 inline-flex items-center gap-2 text-sm text-dim transition-colors duration-200 hover:text-chalk"
+          >
+            <Phone className="size-4" />
+            <span className="font-mono">{site.phone}</span>
+          </a>
         </Reveal>
 
         <Reveal delay={0.26}>

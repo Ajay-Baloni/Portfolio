@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="border-t border-white/6 px-6 py-10">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4">
         <p className="font-mono text-xs text-dim">
-          © {new Date().getFullYear()} {site.name}. Built with Next.js.
+          © {new Date().getFullYear()} {site.name}.
         </p>
 
         <a

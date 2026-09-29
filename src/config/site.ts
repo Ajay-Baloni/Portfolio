@@ -10,6 +10,7 @@ export const site = {
   role: "Full-Stack Developer",
   location: "Mohali, Punjab",
   email: "ajaybaloni01@gmail.com",
+  phone: "+91 89379 44046",
   /** Drop your PDF at public/resume.pdf, or point this at a hosted link. */
   resumeUrl: "/resume.pdf",
   /** Used for metadata + OG tags. Set this to your real domain before deploying. */
